@@ -1,0 +1,62 @@
+body{
+    margin: auto;
+    padding: auto;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    list-style-type: none;
+}
+.menuhautdepage li{
+    width: 250px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+}
+.troiscategorie{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.card1{
+    margin-right: 150px;
+}
+.card2{
+    margin-right: 150px;
+}
+.card3{
+    margin-right: 150px;
+}
+.content{
+    padding: 16px;
+    margin-top: 30px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky+.content{
+    padding-top: 60px;
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    text-decoration: none;
+    color:black;    
+    background-color: cornflowerblue;
+    width:100%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
